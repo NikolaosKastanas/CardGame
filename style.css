@@ -1,0 +1,54 @@
+body{
+    background: hsla(120, 32%, 32%, 0.812);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.game{
+    text-align: center;
+    padding: 10px;
+}
+
+#logo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cards{
+    padding: 20px;
+    background: transparent;
+    border: none;
+}
+
+#dealBtn{
+    border: 5px solid beige;
+    border-radius: 40px;
+    background: hsla(34, 100%, 55%, 0.906);
+    font-size: 2em;
+    color: beige;
+    margin: 15px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+#dealBtn:hover{
+    background: hsl(34, 100%, 55%);
+}
+
+.score{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: none;
+    gap: 80px;
+    color: azure;
+    font-weight: 300;
+}
+
+#resultText{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-weight: 300;
+}

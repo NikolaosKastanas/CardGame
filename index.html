@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <img id="logo" src="images/logo.svg" alt="Card Game Logo"><br>
+
+        <div class="cardContainer">
+            <img class="cards" id="leftCard" src="images/back.svg" alt="card image">
+            <img class="cards" id="rightCard" src="images/back.svg" alt="card image">
+        </div><br>
+
+        <button id="dealBtn">Deal</button>
+
+        <div class="score">
+            <div>
+                <p id="playerTxt">Player</p>
+                <p id="playerScore">0</p>
+            </div>
+            <div>
+                <p id="cpuTxt">CPU</p>
+                <p id="cpuScore">0</p>
+            </div>
+        </div>
+        <p id="resultText"></p>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
